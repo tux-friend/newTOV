@@ -1,4 +1,4 @@
-PROGRAM newTON
+PROGRAM newTOV
   
 ! Creates a 1D profile for a star with given EoS table.
 ! This 1D profile then can be used for e.g. SPH simulations.
@@ -75,7 +75,7 @@ PROGRAM newTON
 	print '(a,f15.5)', 'Star Mass [M_sun]: ',Y(1)/msun
 	print '(a,i15)', '# of iterations: ',int(irad/h+1)
 
-END PROGRAM newTON
+END PROGRAM newTOV
 
 !************************************************************************
 
