@@ -12,10 +12,10 @@ EXTRADEPS=
 
 MODINC=$(HDF5INCS)
 
-all: nuc_eos.a newTON
+all: nuc_eos.a newTOV
 
-newTON: nuc_eos.a newTON.F90
-	$(F90) $(F90FLAGS) -o newTON newTON.F90 nuc_eos.a $(HDF5LIBS)
+newTOV: nuc_eos.a newTOV.F90
+	$(F90) $(F90FLAGS) -o newTOV newTOV.F90 nuc_eos.a $(HDF5LIBS)
        
 nuc_eos.a: $(OBJECTS) $(FOBJECTS)
 	ar r nuc_eos.a *.o
