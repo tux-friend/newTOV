@@ -3,7 +3,7 @@ solver for stellar equations with tabulated EOS, switch between Newtonian or TOV
 
 ## Description
 Creates a 1D profile for a star with given EoS table. This 1D profile then can be used for e.g. SPH simulations.
-It can be switched between Newtonian stellar equations and TOV equations.
+It can be switched between Newtonian stellar equations and TOV equations. For solving the ODE system the 4th order Runge-Kutta method is used.
 
 The EOS driver routine of Evan O'Connor et al. is used (https://github.com/evanoconnor/EOSdriver).
 
