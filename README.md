@@ -1,5 +1,6 @@
 # newTOV
-solver for stellar equations with tabulated EOS, switch between newtonian or TOV equations hence the name newtonian + TOV = newTOV :-)
+solver for stellar equations with tabulated EOS, switch between newtonian or TOV equations 
+hence: the name newtonian + TOV = newTOV :-)
 
 ## Description
 Creates a 1D profile for a star with given EoS table. This 1D profile then can be used for e.g. SPH simulations.
